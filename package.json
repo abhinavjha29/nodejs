@@ -1,0 +1,16 @@
+{
+  "name": "sharparner",
+  "version": "1.0.0",
+  "description": "demo package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodeman app.js",
+    "start-server": "node app.js"
+  },
+  "author": "abhinav jha",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

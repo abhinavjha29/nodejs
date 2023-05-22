@@ -6,10 +6,11 @@ const server = http.createServer((req , res)=>{
      res.write("<html>") ;
      res.write("<head><title>My first join</title></head>") ;
      res.write("<body>Welcome Home</body>") ;
+     res.write("<body>hey</body>") ;
      res.write("</html>") ;
      return res.end() ;
     }
-    if(url==='/about') {
+    if(url=='/about') {
         res.write("<html>") ;
         res.write("<head><title>about us </title></head>") ;
         res.write("<body> welcome to about us page</body>") ;
